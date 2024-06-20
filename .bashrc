@@ -14,7 +14,7 @@ fi
 
 #ajuda
 
-read -p $'0 = Sair/fish\n1 = comandos do terminal\n2 = apps\n3 = \n4 = arrumar monitor\nEscolha:' escolha
+read -p $'0 = Sair/fish\n1 = comandos do terminal\n2 = apps\n3 = feh wallpapers\n4 = arrumar monitor\nEscolha:' escolha
 echo '====================='
 if [ $escolha -eq 0 ]
 then
@@ -24,12 +24,12 @@ fi
 
 if [ $escolha -eq 1 ]
 then
-	echo $'cd {diretório} muda seu diretório\nmv {localização anterior} {nova localização} move o arquivo (também renomeia)\nrm {arquivo} remove o arquivo\n./{arquivo}.sh executa arquivo bash\nchmod +x {arquivo} aumenta permissão do arquivo\nls mostra os arquivos no diretório atual'
+	echo $'cd {diretório} muda seu diretório\nmv {localização anterior} {nova localização} move o arquivo (também renomeia)\nrm {arquivo} remove o arquivo\n./{arquivo}.sh executa arquivo bash\nchmod +x {arquivo} aumenta permissão do arquivo\nls mostra os arquivos no diretório atual\nmkdir {diretorio} cria diretorio'
 fi
 
 if [ $escolha -eq 2 ]
 then
-	read -p $'Apps:\n1 = Librewolf navegador\n2 = htop gerenciador de processos\n3 = networkmanager gerenciador de rede\n4 = ranger gerenciador de arquivos\n5 = neovim editor de texto\n6 = dwm ambiente area de trabalho\n7 = feh wallpaper engine\nnsxiv visualizador de foto\ngparted gerenciador de disco\n9 = Counter-Strike 1.6\n0 = xcompmgr e transset-df adiciona transparencia no terminal\nEscolha: ' apps
+	read -p $'Apps:\n1 = Librewolf navegador\n2 = htop gerenciador de processos\n3 = networkmanager gerenciador de rede\n4 = ranger gerenciador de arquivos\n5 = neovim editor de texto\n6 = dwm ambiente area de trabalho\nnsxiv visualizador de foto\ngparted gerenciador de disco\n9 = Counter-Strike 1.6\n0 = xcompmgr e transset-df adiciona transparencia no terminal\nEscolha: ' apps
 	if [ $apps -eq 0 ]
 	then
 		xcompmgr -c &
@@ -58,11 +58,6 @@ then
 	then		
 		echo $'[Shift]+[Alt]+[Enter] Inicia o terminal\n[Alt]+[p] dmenu para programas rodando como o x-www-browser\n[Alt]+[Enter] Alterna janela entre mestre e stack.\n[Alt]+[j] ou [Alt]+[k].Para mover para outro terminal\n[Shift]+[Alt]+[numero da tag] Para mover um terminal para outra tag\n[Alt]+[numero da tag] Para focar em outra tag\n[Alt]+[d](Diminui) ou [Alt]+[i](Aumenta)Para mudar a quantidade de janelas na area mestre\n[Shift]+[Alt]+[c]Para MATAR uma janela\n[Alt]+[t]modo ladrilhos\n[Shift]+[Alt]+[q]Para sair do dwm\n[Alt]+[botão direito do mouse] Para redimensionar a janela flutuante\n[Alt]+[botão esquerdo do mouse] Para mover a janela.\n[Alt]+[Shift]+[espaço]Alterna o modo janela flutuante na janela ativa\n[Alt]+[f] modo flutuante ><>\n[Alt]+[m] monoculo [M]\n[Alt]+[botão do meio do mouse] Alterna flutuante ou não\n    +------+----------------------------------+--------+\n    | tags | titulo                           | status |\n    +------+---------------------+------------+--------+\n    |                            |                     |\n    |                            |                     |\n    |                            |                     |\n    |                            |                     |\n    |          mestre            |        stack        |\n    |                            |                     |\n    |                            |                     |\n    |                            |                     |\n    |                            |                     |\n    +----------------------------+---------------------+'
 	fi
-	if [ $apps -eq 7 ]
-
-	then
-		feh --bg-fill ~/Imagens/wallpapers/vagabond.jpeg
-	fi
 	if [ $apps -eq 9 ]
 	then
 		cd Games/Counter-Strike\ WaRzOnE/
@@ -71,6 +66,34 @@ then
 	fi
 fi
 
+if [ $escolha -eq 3 ]
+then
+	read -p $'Wallpapers:\n1 = MGRR\n2 = VAGABOND\n3 = PSYCHO MOB\n4 = \n5 = \n6 = \n7 = \n8 = \n9 = \n0 = \nEscolha: ' walls
+	if [ $walls -eq 1 ]
+	then
+		feh --bg-fill Imagens/wallpapers/1-MGRR.jpg
+	fi
+	if [ $walls -eq 2 ]
+	then	
+		feh --bg-fill Imagens/wallpapers/1-VAGABOND.jpg
+	fi
+	if [ $walls -eq 3 ]
+	then
+		feh --bg-fill Imagens/wallpapers/1-MOBPSYCHO.jpg
+	fi
+	fi
+	if [ $walls -eq 4 ]
+	then
+		feh
+	fi
+	if [ $walls -eq 5 ]
+	then
+		feh
+	fi
+	if [ $walls -eq 6 ]
+	then
+		feh
+	fi
 if [ $escolha -eq 4 ]
 then
 	xrandr --output HDMI-1 --on
