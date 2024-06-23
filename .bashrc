@@ -14,7 +14,7 @@ fi
 
 #ajuda
 
-read -p $'0 = Sair/fish\n1 = comandos do terminal\n2 = apps\n3 = wallpapers\n4 = arrumar monitor\nEscolha:' escolha
+read -p $'0 = Sair/fish\n1 = comandos do terminal\n2 = apps\n3 = wallpaper aleatório\n4 = arrumar monitor\nEscolha:' escolha
 echo '====================='
 if [ $escolha -eq 0 ]
 then
@@ -24,12 +24,12 @@ fi
 
 if [ $escolha -eq 1 ]
 then
-	echo $'cd {diretório} muda seu diretório\nmv {localização anterior} {nova localização} move o arquivo (também renomeia)\nrm {arquivo} remove o arquivo\n./{arquivo}.sh executa arquivo bash\nchmod +x {arquivo} aumenta permissão do arquivo\nls mostra os arquivos no diretório atual\nmkdir {diretorio} cria diretorio'
+	echo $'cd {diretório} muda seu diretório\nmv {localização anterior} {nova localização} move o arquivo (também renomeia)\nrm {arquivo} remove o arquivo\n./{arquivo}.sh executa arquivo bash\nchmod +x {arquivo} aumenta permissão do arquivo\nls mostra os arquivos no diretório atual\nmkdir {diretorio} cria diretorio\n{comando} | less (faz grandes comandos outputs legiveis\nman {comando} mostra muita coisa\npacman -Q mostra pacotes instalados'
 fi
 
 if [ $escolha -eq 2 ]
 then
-	read -p $'Apps:\n1 = Librewolf navegador\n2 = htop gerenciador de processos\n3 = networkmanager gerenciador de rede\n4 = ranger gerenciador de arquivos\n5 = neovim editor de texto\n6 = \n7 = \n8 = \n9 = wine\n0 = outros\nEscolha: ' apps
+	read -p $'Apps:\n1 = Librewolf navegador\n2 = htop gerenciador de processos\n3 = networkmanager gerenciador de rede\n4 = yazi gerenciador de arquivos\n5 = neovim editor de texto\n6 = \n7 = \n8 = \n9 = wine\n0 = outros\nEscolha: ' apps
 	if [ $apps -eq 0 ]
 	then
 	read -p $'Outros:\n1 = DWM tutorial\n2 = lista de apps\n3 = ativar compositor\nEscolha: ' outros
@@ -40,7 +40,7 @@ then
 		fi
 		if [ $outros -eq 2 ]
 		then
-			echo $'feh wallpaper e visualizador de fotos\ncompmgr compositor\nremmina e freerdp cliente de area de trabalho remota\ndwm ambiente area de trabalho\nspeedtest-cli teste de net\ngparted gerenciador de discos\n(AUR)manga-cli-git mangas em ingles\ngoanime animes em pt-br/ani-cli animes em ingles'
+			echo $'coreshot screenshot\nfeh wallpaper e visualizador de fotos\ncompmgr compositor\nremmina e freerdp cliente de area de trabalho remota\ndwm ambiente area de trabalho\nspeedtest-cli teste de net\ngparted gerenciador de discos\n(AUR)manga-cli-git mangas em ingles\ngoanime animes em pt-br/ani-cli animes em ingles'
 		fi
 		if [ $outros -eq 3 ]
 		then
@@ -63,7 +63,7 @@ then
 	fi
 	if [ $apps -eq 4 ]
 	then
-		ranger
+		yazi
 	fi
 	if [ $apps -eq 5 ]
 	then
@@ -100,31 +100,7 @@ fi
 
 if [ $escolha -eq 3 ]
 then
-	read -p $'Wallpapers:\n1 = MGRR\n2 = VAGABOND\n3 = PSYCHO MOB\n4 = \n5 = \n6 = \n7 = \n8 = \n9 = \n0 = \nEscolha: ' walls
-	if [ $walls -eq 1 ]
-	then
-		feh --bg-fill Imagens/wallpapers/1-MGRR.jpg
-	fi
-	if [ $walls -eq 2 ]
-	then	
-		feh --bg-fill Imagens/wallpapers/1-VAGABOND.jpg
-	fi
-	if [ $walls -eq 3 ]
-	then
-		feh --bg-fill Imagens/wallpapers/1-MOBPSYCHO.jpg
-	fi
-	if [ $walls -eq 4 ]
-	then
-		feh
-	fi
-	if [ $walls -eq 5 ]
-	then
-		feh
-	fi
-	if [ $walls -eq 6 ]
-	then
-		feh
-	fi
+	feh --bg-fill --randomize ~/Imagens/wallpapers/*
 fi
 if [ $escolha -eq 4 ]
 then
@@ -137,12 +113,13 @@ then
 	while true
 	do
 		TIME=$(date +%T) 
-		IP=$(for i in `ip r`; do echo $i; done | grep -A 1 src | tail -n1) # can get confused if you use vmware
+		IP=$(for i in `ip r`; do echo $i; done | grep -A 1 src | tail -n1)
 		TEMP="$(($(cat /sys/class/thermal/thermal_zone0/temp) / 1000))C"
 		xsetroot -name "$TIME | $IP $TEMP"	
 		sleep 1s
 	done &
-	xrandr --output HDMI-1 --mode 1440x900 --left-of eDP-1
-	echo "A resolução do segundo monitor agora é 1440x900"
+	xrandr --output eDP-1 --mode 1336x768 --rate 60
+	xrandr --output HDMI-1 --mode 1440x900 --rate 60 --left-of eDP-1
+	echo "Arrumado"
 	fish
 fi
