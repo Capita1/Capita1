@@ -128,7 +128,21 @@ then
 fi
 if [ $escolha -eq 4 ]
 then
-	xrandr --output HDMI-1 --on
+	eval `/usr/bin/ssh-agent`
+
+	if test -f /usr/lib/openssh/x11-ssh-askpass # Archlinux
+	then
+		SSH_ASKPASS=/usr/lib/openssh/x11-ssh-askpass ssh-add < /dev/null
+	fi
+	while true
+	do
+		TIME=$(date +%T) 
+		IP=$(for i in `ip r`; do echo $i; done | grep -A 1 src | tail -n1) # can get confused if you use vmware
+		TEMP="$(($(cat /sys/class/thermal/thermal_zone0/temp) / 1000))C"
+		xsetroot -name "$TIME | $IP $TEMP"	
+		sleep 1s
+	done &
 	xrandr --output HDMI-1 --mode 1440x900 --left-of eDP-1
 	echo "A resolução do segundo monitor agora é 1440x900"
+	fish
 fi
