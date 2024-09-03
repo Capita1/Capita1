@@ -1,4 +1,4 @@
-<img  width="100%" height="25" src="https://blogger.googleusercontent.com/img/a/AVvXsEhwnJHZc3RKply-7CXMSk3QsucOIk3EBp0cA6FpolywogjqroeKubB2b0T9ft4-4vMJCE9GDSJwRJSqmoupQBBzkMrxlu1Hd84xXi2w912juIyjbODAWJEOXEW688Rh8QzDGS4Kaf6wBqIxqlwekXllswba_oj19QYDn0mPwk7JDI30ZT9Ipw8f39NRhlQb" />
+<hr/>
 
 <h2> Olá, eu sou Gabriel H. P. Leite </h2>
 <ul>
@@ -24,4 +24,4 @@
   <a href = "mailto:gabrielhenrik25@gmail.com"> <img  height="70" width="70"  src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3nxSdk0snOgEKhP0havjV96zlDtYYMvjFTKOf2lNimix3zE6xddF02wfJAorWy4CBJrNyMir0dgNO-Dj03IV-07HLxZeNX7UE1yt15ZtcbBGgpq4ifAxg6nN4k3_tuibabvgbXCvYUigO-lvJuhHfcqZay5SWl_Jl4Gl6WuSgaOaefdiM8AGZlQEnpI9t/s320/enviar%20(3).png" target="_blank"></a> 
 </div>
 
-<img  width="100%" height="25" src="https://blogger.googleusercontent.com/img/a/AVvXsEhwnJHZc3RKply-7CXMSk3QsucOIk3EBp0cA6FpolywogjqroeKubB2b0T9ft4-4vMJCE9GDSJwRJSqmoupQBBzkMrxlu1Hd84xXi2w912juIyjbODAWJEOXEW688Rh8QzDGS4Kaf6wBqIxqlwekXllswba_oj19QYDn0mPwk7JDI30ZT9Ipw8f39NRhlQb" />
+<hr/>
