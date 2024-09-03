@@ -1,14 +1,6 @@
 <img  width="100%" height="25" src="https://blogger.googleusercontent.com/img/a/AVvXsEhwnJHZc3RKply-7CXMSk3QsucOIk3EBp0cA6FpolywogjqroeKubB2b0T9ft4-4vMJCE9GDSJwRJSqmoupQBBzkMrxlu1Hd84xXi2w912juIyjbODAWJEOXEW688Rh8QzDGS4Kaf6wBqIxqlwekXllswba_oj19QYDn0mPwk7JDI30ZT9Ipw8f39NRhlQb" />
 
-<h2 style=".nselec{
-padding:3px;
-margin:3px;
-color:@text-unfocused;
-background-image:linear-gradient(180deg, var(--border), var(--border)),linear-gradient(225deg, var(--border), var(--border)),linear-gradient(0deg, var(--border), var(--border)),linear-gradient(90deg, var(--border), var(--border)),linear-gradient(135deg, transparent 9px, var(--border) 10px, var(--border) 1px, transparent 12px),linear-gradient(180deg, var(--background), var(--background)),linear-gradient(135deg,var(--background), var(--background)),linear-gradient(135deg, var(--background),var(--background) 65%, transparent 75%);
-background-position:bottom left,top left,top right,top right,bottom right,top left,top right,bottom right;
-background-size:calc(100% - 7px) 1px,1px 100%,100% 1px,1px calc(100% - 7px),10px 12px,calc(100% - 7px),10px calc(100% - 7px),10px 12px;
-background-repeat: no-repeat;
-}"> Olá, eu sou Gabriel H. P. Leite </h2>
+<h2> Olá, eu sou Gabriel H. P. Leite </h2>
 <ul>
 <li>Estudante de Gestão de Tecnologia da informação</li>
 </ul>
