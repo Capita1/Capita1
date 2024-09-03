@@ -1,11 +1,6 @@
 <img  width="100%" height="25" src="https://blogger.googleusercontent.com/img/a/AVvXsEhwnJHZc3RKply-7CXMSk3QsucOIk3EBp0cA6FpolywogjqroeKubB2b0T9ft4-4vMJCE9GDSJwRJSqmoupQBBzkMrxlu1Hd84xXi2w912juIyjbODAWJEOXEW688Rh8QzDGS4Kaf6wBqIxqlwekXllswba_oj19QYDn0mPwk7JDI30ZT9Ipw8f39NRhlQb" />
 
-
-<h2>✦ Olá, eu sou Gabriel H. P. Leite </h2>
-
-
-<img align="right" alt="Gab-Gif" height="100" width="160" src="https://blogger.googleusercontent.com/img/a/AVvXsEg1jJ_lMGqIMDPwZ3eRj9EZGaxbhHxFUV2l7Rw1Q3OilDwDE6yHFUw8UB74JQlo7FfBw_XAjxc0KobFGsLvFts3h0kZcMbHmtcSKzVcJYicr2xQYggxs4mYwxDB-KRm3bto0Tpw6qU3-XiXAJ2rOXNB8ouGCYpzIXPpbd0Mvn4bim82KB1XqyB2sl2u5XRK">
-
+<h2> Olá, eu sou Gabriel H. P. Leite </h2>
 <ul>
 <li>Estudante de Gestão de Tecnologia da informação</li>
 </ul>
