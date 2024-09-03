@@ -6,7 +6,7 @@
 </ul>
 
 ##
-[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Capita1&theme=dracula)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![Grafico de contribuições](https://github-readme-activity-graph.vercel.app/graph?username=Capita1&theme=dracula)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 <h2 align="center">✦  Linguagens e ferramentas que utilizo  ✦</h2>
   
