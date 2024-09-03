@@ -1,5 +1,32 @@
-Meu github
-<!---
-Capita1/Capita1 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+<img  width="100%" height="25" src="https://blogger.googleusercontent.com/img/a/AVvXsEhwnJHZc3RKply-7CXMSk3QsucOIk3EBp0cA6FpolywogjqroeKubB2b0T9ft4-4vMJCE9GDSJwRJSqmoupQBBzkMrxlu1Hd84xXi2w912juIyjbODAWJEOXEW688Rh8QzDGS4Kaf6wBqIxqlwekXllswba_oj19QYDn0mPwk7JDI30ZT9Ipw8f39NRhlQb" />
+
+
+<h2>✦ Olá, eu sou Gabriel H. P. Leite </h2>
+
+
+<img align="right" alt="Gab-Gif" height="100" width="160" src="https://blogger.googleusercontent.com/img/a/AVvXsEg1jJ_lMGqIMDPwZ3eRj9EZGaxbhHxFUV2l7Rw1Q3OilDwDE6yHFUw8UB74JQlo7FfBw_XAjxc0KobFGsLvFts3h0kZcMbHmtcSKzVcJYicr2xQYggxs4mYwxDB-KRm3bto0Tpw6qU3-XiXAJ2rOXNB8ouGCYpzIXPpbd0Mvn4bim82KB1XqyB2sl2u5XRK">
+
+<ul>
+<li>Estudante de Gestão de Tecnologia da informação</li>
+</ul>
+
+##
+[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=capita1&custom_title=Gráfico%20de%20Contribuições&hide_border=true&bg_color=e8ceae&color=602c0d&line=602c0d&days=30&height=250)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
+<h2 align="center">✦  Linguagens e ferramentas que utilizo  ✦</h2>
+  
+<div style="display: inline_block" align="center"><br>
+  <img align="center" alt="Gab-Js"   height="70" width="70"  src="https://blogger.googleusercontent.com/img/a/AVvXsEibz_6vUj95nFP13cYOGtzJD1B6SibCAyr8MWyoVVoPzHo3cRDrjyi3fGiNOYWzCOJ_KACr87v9huWpmY3evnx6jz332K5FTW-9WU1TSTl7vomR9elltpekd8ULIMo8RMgJRr6Mez7YFt05-FoZF8nGUu2wssrJP_OrEWCZzrcmxr3150WMnzVg8_cGsVMY">
+  <img align="center" alt="Gab-HTML"   height="70" width="70"   src="https://blogger.googleusercontent.com/img/a/AVvXsEjHlwQq4pGfTYSDyGj264MhTmx20iZPkXImcaLdGjpOmlPiwfRsgD1h5nLC-4bLYLoY7Q916IqNG9ziq0wkrQAyA--kyi7FIKmRGx9GnfKQPO2nPxYM_uYqj5s7gV7W5FFrMaUMYGvwhmJdTC0xrR2AEZPkED8JviL__5Tmjwf-IftlqEsergr8_A2PQomE">
+  <img align="center" alt="Gab-CSS"   height="70" width="70" src="https://blogger.googleusercontent.com/img/a/AVvXsEiy8K_17pWCzjdx7OmXEGGtTTVKGLw73qySuF6tjAdKyYnBK85MAYsyrE26AIfFXSPgMaVSm5fkaJcEi8m7078WRGZPOZ0r7_STKLvrsEfV-DiWQczqQ_BqELOZKf7EGrjlbew6UhxCviWzedu1QhlDmq4iAMYA09J4SLaCpwIyI9x0lElnh5w0JBpV7rqs">
+  <img align="center" alt="Gab-Python" height="70" width="70"  src="https://blogger.googleusercontent.com/img/a/AVvXsEhf7gjZXwR6qqDvlAEXFKFYDN_V0S22X55IHsKldxzEjrY3VxwrGSZWZLekxaTBU3mLa2EvJe-yT7nTsyO83R8sVRW-kNp7p2RjAGlvAIKdenSjm9veWZflo4byNengaVuNbvj2sRX-hpMgeGihZMFCR0z839GCyMZvlbaSj9FqH2ZPydndAV0-IW-iYd7g">
+</div>
+
+<h2 align="center">✦  Informações para contato  ✦</h2>
+
+<div align="center"> 
+  <a href="https://www.linkedin.com/in/gabriel-henrique-41ba16224/" target="_blank"><img  height="70" width="70"  src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGx2kTv5aesNVwvykTwTHkZxZ2KpQOetPJCUM-9ZP386KGE4cTgvvYbn0GCbAVv-n4CcWvN9hr6raa_EPh3TU8cBbQd9DrfEPGOmBuJTR5IMDuQt3iH2Clrbtk3HKl36VNcxZmIVLdx6OYPx88Scl0TMcX0PlDYohgLsLYnemJdbhWlG6qiLNGrkT_Fha3/s320/linkedin%20(1).png" target="_blank"></a>
+  <a href = "mailto:gabrielhenrik25@gmail.com"> <img  height="70" width="70"  src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3nxSdk0snOgEKhP0havjV96zlDtYYMvjFTKOf2lNimix3zE6xddF02wfJAorWy4CBJrNyMir0dgNO-Dj03IV-07HLxZeNX7UE1yt15ZtcbBGgpq4ifAxg6nN4k3_tuibabvgbXCvYUigO-lvJuhHfcqZay5SWl_Jl4Gl6WuSgaOaefdiM8AGZlQEnpI9t/s320/enviar%20(3).png" target="_blank"></a> 
+</div>
+
+<img  width="100%" height="25" src="https://blogger.googleusercontent.com/img/a/AVvXsEhwnJHZc3RKply-7CXMSk3QsucOIk3EBp0cA6FpolywogjqroeKubB2b0T9ft4-4vMJCE9GDSJwRJSqmoupQBBzkMrxlu1Hd84xXi2w912juIyjbODAWJEOXEW688Rh8QzDGS4Kaf6wBqIxqlwekXllswba_oj19QYDn0mPwk7JDI30ZT9Ipw8f39NRhlQb" />
