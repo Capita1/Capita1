@@ -1,6 +1,6 @@
 <hr/>
 
-<h2> Olá, eu sou Gabriel H. P. Leite </h2>
+<h2> Olá, eu sou Gabriel Henrique Pereira Leite </h2>
 <ul>
 <li>Estudante de Gestão de Tecnologia da informação</li>
 </ul>
