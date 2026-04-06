@@ -9,7 +9,7 @@
 
 <h2 align="center">Ferramentas que utilizo </h2>        
 <div style="display: inline_block" align="center"><br>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/archlinux/archlinux-original-wordmark.svg" width="50" alt="ArchLinux" align="middle" />     
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/archlinux/archlinux-original.svg" width="50" alt="ArchLinux" align="middle" />     
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg" width="50" alt="Python" align="middle" />     
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-plain-wordmark.svg" width="50" alt="Docker" align="middle" />     
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="50" alt="Javascript" align="middle" />     
