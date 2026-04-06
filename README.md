@@ -1,5 +1,5 @@
+<link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
 <hr/>
-
 <h2> Olá, eu sou Gabriel Henrique Pereira Leite </h2>
 <ul>
 <li>Estudante de Gestão de Tecnologia da informação</li>
@@ -10,9 +10,12 @@
 
 <h2 align="center">Ferramentas que utilizo </h2>
   
-<link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
           
 <div style="display: inline_block" align="center"><br>
+  
+  <i class="devicon-archlinux-plain"></i>
+          
   <img align="center" alt="Gab-Js"   height="70" width="70"  src="https://blogger.googleusercontent.com/img/a/AVvXsEibz_6vUj95nFP13cYOGtzJD1B6SibCAyr8MWyoVVoPzHo3cRDrjyi3fGiNOYWzCOJ_KACr87v9huWpmY3evnx6jz332K5FTW-9WU1TSTl7vomR9elltpekd8ULIMo8RMgJRr6Mez7YFt05-FoZF8nGUu2wssrJP_OrEWCZzrcmxr3150WMnzVg8_cGsVMY">
   <img align="center" alt="Gab-HTML"   height="70" width="70"   src="https://blogger.googleusercontent.com/img/a/AVvXsEjHlwQq4pGfTYSDyGj264MhTmx20iZPkXImcaLdGjpOmlPiwfRsgD1h5nLC-4bLYLoY7Q916IqNG9ziq0wkrQAyA--kyi7FIKmRGx9GnfKQPO2nPxYM_uYqj5s7gV7W5FFrMaUMYGvwhmJdTC0xrR2AEZPkED8JviL__5Tmjwf-IftlqEsergr8_A2PQomE">
   <img align="center" alt="Gab-CSS"   height="70" width="70" src="https://blogger.googleusercontent.com/img/a/AVvXsEiy8K_17pWCzjdx7OmXEGGtTTVKGLw73qySuF6tjAdKyYnBK85MAYsyrE26AIfFXSPgMaVSm5fkaJcEi8m7078WRGZPOZ0r7_STKLvrsEfV-DiWQczqQ_BqELOZKf7EGrjlbew6UhxCviWzedu1QhlDmq4iAMYA09J4SLaCpwIyI9x0lElnh5w0JBpV7rqs">
